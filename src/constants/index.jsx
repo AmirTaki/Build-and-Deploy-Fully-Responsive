@@ -1,3 +1,17 @@
+import { BotMessageSquare } from "lucide-react";
+import { BatteryCharging } from "lucide-react";
+import { Fingerprint } from "lucide-react";
+import { ShieldHalf } from "lucide-react";
+import { PlugZap } from "lucide-react";
+import { GlobeLock } from "lucide-react";
+
+import user1 from "../images/user1.jpg"
+import user2 from "../images/user2.jpg"
+import user3 from "../images/user3.jpg"
+import user4 from "../images/user4.jpg"
+import user5 from "../images/user5.jpg"
+import user6 from "../images/user6.jpg"
+
 export const navItems =  [
     {label : "Features", href: "#"},
     {label : "Workflow", href: "#"},
