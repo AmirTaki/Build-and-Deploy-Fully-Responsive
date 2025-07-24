@@ -1,5 +1,7 @@
-import logo from "../images/logo.png"
+import logo from "../images/logo.png";
+// import (Menu, X) from "lucide-react"
 import { navItems } from "../constants";
+import { useState } from "react";
 const Navbar = () =>{
     return(
         <>
