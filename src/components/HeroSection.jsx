@@ -1,7 +1,17 @@
+
+import video2 from "../videos/video2.mp4"
+import video1 from "../videos/video1.mp4"
+
+
 const HeroSection  = () => {
     return (
         <>
-            Herosection
+
+            <div className="flex flex-col items-center mt-6 lg:mt-20">
+                <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide"></h1>
+            </div>
+            <video src={video2}></video>
+            <video src={video1}></video>
         </>
     )
 }
