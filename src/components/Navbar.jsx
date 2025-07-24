@@ -1,8 +1,11 @@
 import logo from "../images/logo.png";
-// import (Menu, X) from "lucide-react"
+import {Menu, X} from "lucide-react"
 import { navItems } from "../constants";
 import { useState } from "react";
 const Navbar = () =>{
+    const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
+    const toggleNavbar = ()
+
     return(
         <>
             <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80 ">
