@@ -4,7 +4,9 @@ import { navItems } from "../constants";
 import { useState } from "react";
 const Navbar = () =>{
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
-    const toggleNavbar = ()
+    const toggleNavbar = () => {
+        setMobileDrawerOpen(!mobileDrawerOpen)
+    }
 
     return(
         <>
@@ -31,6 +33,11 @@ const Navbar = () =>{
                         <a href="" className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md">
                             Create an account
                         </a>
+                    </div>
+                    <div className="lg:hidden md:flex flex-col justify-end">
+                        <button onClick={toggleNavbar}>
+                            {mobileDrawerOpen ? <X /> : <Menu />}
+                        </button>
                     </div>
                 </div>
             </nav>
