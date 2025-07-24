@@ -1,3 +1,4 @@
+import logo from "../images/logo.png"
 const Navbar = () =>{
     return(
         <>
@@ -5,6 +6,8 @@ const Navbar = () =>{
                 <div className="container px-4 mx-auto relative text-sm">
                     <div className="flex jusitfy-center items-center">
                         <div className="flex items-center flex-shrink-0"></div>
+                        <img src={logo} alt="logo" className="h-10 w-10 mr-2"/>
+                        
                     </div>
                 </div>
             </nav>
