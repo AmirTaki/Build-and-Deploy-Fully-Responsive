@@ -11,6 +11,9 @@ const Navbar = () =>{
                             VirtualR
                         </span>
                     </div>
+                    <ul className="hidden lg:flex ml-14 space-x-12">
+                        
+                    </ul>
                 </div>
             </nav>
         </>
