@@ -7,7 +7,9 @@ const Navbar = () =>{
                     <div className="flex jusitfy-center items-center">
                         <div className="flex items-center flex-shrink-0"></div>
                         <img src={logo} alt="logo" className="h-10 w-10 mr-2"/>
-                        
+                        <span className="text-xl tracking-tight">
+                            VirtualR
+                        </span>
                     </div>
                 </div>
             </nav>
