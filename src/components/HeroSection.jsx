@@ -14,6 +14,9 @@ const HeroSection  = () => {
                        {" "} for developers 
                     </span>
                 </h1>
+                <p>
+                    Empower your creativity and bring your VR app ideas to life with our intuitive development tools. Get started today and turn your imagination into immersive reality!
+                </p>
             </div>
             <video src={video2}></video>
             <video src={video1}></video>
