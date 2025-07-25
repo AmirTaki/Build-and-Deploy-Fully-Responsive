@@ -15,6 +15,10 @@ const Pricing = () => {
                                     {option.title} 
                                     {option.title === "Pro" && <span className="bg-gradient-to-r from-orange-500 to-red-400 text-transparent bg-clip-text text-xl mb-4 ml-2 "> (Most Popular) </span>}
                                 </p>
+                                <p className = "mb-8">
+                                    <span className="text-5xl mt-6 mr-2">{option.price}</span>
+                                    <span className="text-neutral-400 tracking-tight">/Month</span>
+                                </p>
                             </div>
                         </div>
                     ))}
