@@ -1,7 +1,11 @@
+import { communityLinks, platformLinks, resourcesLinks } from "../constants";
+
 const Footer = () => {
     return(
         <>
-            Footer
+            <footer className = "mt-20 border-t py-10 border-neutral-700">
+
+            </footer>
         </>
     )  
 }
