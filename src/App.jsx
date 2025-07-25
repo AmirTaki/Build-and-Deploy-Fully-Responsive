@@ -1,3 +1,4 @@
+import Workflow from "./components/Workflow"
 import './App.css'
 import FeatureSection from './components/FeatureSection'
 import HeroSection from './components/HeroSection'
@@ -10,6 +11,7 @@ function App() {
       <div className = "max-w-7xl mx-auto pt-20 px-6">
         <HeroSection />
         <FeatureSection />
+        <Workflow />
       </div>
   
     </>
