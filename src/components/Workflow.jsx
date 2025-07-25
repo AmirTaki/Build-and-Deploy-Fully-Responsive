@@ -11,6 +11,13 @@ const Workflow = () => {
                         {' '}coding workflow. 
                     </span>
                 </h2>
+                <div className="flex flex-wrap justify-center">
+                    <div className="p-2 w-full lg:w-1/2">
+                    <img src ={code} alt="code" /></div>
+                </div>
+                <div className="pt-12 w-full lg:w-1/2">
+                    
+                </div>
             </div>
         </>
     )
