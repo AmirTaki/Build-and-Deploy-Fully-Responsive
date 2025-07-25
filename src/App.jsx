@@ -3,7 +3,7 @@ import './App.css'
 import FeatureSection from './components/FeatureSection'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
-
+import Pricing from "./components/Pricing"
 function App() {
   return (
     <>
@@ -12,6 +12,7 @@ function App() {
         <HeroSection />
         <FeatureSection />
         <Workflow />
+        <Pricing />
       </div>
   
     </>
