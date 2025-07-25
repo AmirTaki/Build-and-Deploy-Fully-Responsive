@@ -1,3 +1,6 @@
+import { features } from "../constants";
+
+features
 const FeatureSection = () => {
     return (
         <>
@@ -10,6 +13,16 @@ const FeatureSection = () => {
                         Easily build 
                        {" "} <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">your code</span>
                     </h2>
+                </div>
+                <div className="flex flex-wrpa mt-10 lg:mt-20">
+                    {features.map((feature, index) =>(
+                        <div key = {index} className="w-full sm:1/2 lg:w-1/3">
+                            <div className="flex mx-6 h-10 w-10 p-2 bg-neutral-900 text-orange-700 justify-center items-center rounded-full">
+                                {feature.icon}      
+                            </div>
+                        </div>
+
+                    ))}
                 </div>
             </div>
         </>
