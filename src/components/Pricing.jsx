@@ -19,6 +19,14 @@ const Pricing = () => {
                                     <span className="text-5xl mt-6 mr-2">{option.price}</span>
                                     <span className="text-neutral-400 tracking-tight">/Month</span>
                                 </p>
+                                <ul>
+                                    {option.features.map((feature, index) => (
+                                        <li key = {index} className = "mt-8 flex items-center"> 
+                                            <CheckCircle2 />
+                                            <span className = "ml-2">{feature}</span>
+                                        </li>
+                                    ))}
+                                </ul>
                             </div>
                         </div>
                     ))}
